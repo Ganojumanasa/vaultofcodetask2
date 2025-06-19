@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internship Programs</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .logo img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .logo h1 {
+      color: #f26f6f;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .section-title {
+      margin-top: 30px;
+      font-size: 32px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 16px;
+      color: #111;
+    }
+
+    .card ul {
+      padding-left: 20px;
+      text-align: left;
+      color: #333;
+    }
+
+    .card ul li {
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    @media screen and (max-width: 600px) {
+      .section-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="https://vaultofcodes.in/images/logo.png" alt="Logo" />
+    <h1>VaultofCodes</h1>
+  </div>
+
+  <div class="section-title">Internships</div>
+
+  <div class="cards">
+    <div class="card">
+      <h2>Web Development Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com/web-dev" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>App Development Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com/app-dev" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>Python Programming Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com/python" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>Java Programming Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com/java" class="btn">View Details</a>
+    </div>
+  </div>
+</body>
+</html>
